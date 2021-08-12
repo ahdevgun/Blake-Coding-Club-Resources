@@ -1,6 +1,6 @@
 # RockPaperScissors.py
 __author__ = "Josh Smith"
-# 8.12.21
+# v. 0.0.2
 
 # Import necessary libraries
 import random
@@ -9,7 +9,9 @@ import random
 def game():
     
     print("Let's play a game!")
+    sleep(1)
     print("Choose r, p, or s.")
+    sleep(1)
 
     # Collect input from user
     choice = input(">>>")
@@ -19,6 +21,8 @@ def game():
     choice2Number = random.randint(1, 3) # random integer from 1 to 3
 
     choice2 = possibleChoices[choice2Number] # Get choice at index {choice2Number}
+
+    sleep(2)
     print("Player 2: " + choice2)
 
     # Check choice to decide output
@@ -53,6 +57,7 @@ def game():
         elif choice2 == "s":
             result = "There was a tie."
 
+    sleep(1)
     print(result)
 
     # Check if player would like to play again. If so, run the function once more.
