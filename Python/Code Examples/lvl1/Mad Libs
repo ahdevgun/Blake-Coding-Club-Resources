@@ -1,0 +1,11 @@
+#Define your variables with input statements
+adjective=input("Enter a adjective:")
+place=input("Enter a place=")
+noun=input("Enter a noun=")
+othernoun=input("Enter a Plural noun=")
+thirdnoun=input("Enter a noun=")
+fourthnoun=input("Enter a noun=")
+
+#print out the statement!
+print("Be kind to your %s-footed %s. For a duck may be somebody's %s. Be kind to your %s in %s. Where the weather is always %s. You may think that this is the %s. Well it is " % (noun, othernoun, thirdnoun, othernoun, place, adjective, fourthnoun))
+
